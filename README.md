@@ -110,4 +110,4 @@ List of available routes:
 
 ## Demo
 
-[Click here to access the demo](https://express-auth-demo-owehbeh.herokuapp.com)
+[Click here to access the demo](https://express-auth-demo-owehbeh.herokuapp.com/api/documentation/)
