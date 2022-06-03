@@ -9,9 +9,7 @@ const swaggerDef = {
   },
   servers: [
     {
-      url: `${config.env === 'development' ? 'http://localhost' : 'https://express-auth-demo-owehbeh.herokuapp.com/'}:${
-        config.port
-      }/api`,
+      url: `/api`,
     },
   ],
 };
