@@ -33,7 +33,7 @@ const sendTooManyLoginsEmail = async (to) => {
   const subject = 'Account Locked';
   const text = `Dear User,
 
-Someone, hopefully, you have been failing to log in to your account linked to this email,
+Someone, hopefully you, have been failing to log in to your account linked to this email,
 if this was, you have run out of login tries, please wait for ${coolDownTime} minutes before you try again.
 If this was not you, please contact our support`;
   await sendEmail(to, subject, text);
