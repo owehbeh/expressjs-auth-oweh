@@ -1,2 +1,1 @@
-web: yarn install
-release: yarn start
+web: yarn start
