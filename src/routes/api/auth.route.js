@@ -113,4 +113,13 @@ module.exports = router;
  *             example:
  *               code: 401
  *               message: Invalid email or password
+ *       "429":
+ *         description: Too many requests
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/Error'
+ *             example:
+ *               code: 429
+ *               message: The user has sent too many requests in a given amount of time.
  */
