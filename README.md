@@ -107,3 +107,7 @@ List of available routes:
 
 1. You may use the swagger UI @ `http://localhost:3000/api/documentation` to test the API Endpoints or import the following [Postman collection](https://www.getpostman.com/collections/70a5fe0feeba271f616b)2
 2. For emails to work you will have to provide a [sendgrid](https://sendgrid.com/) API Key in the .env file
+
+## Demo
+
+[Click here to access the demo](https://express-auth-demo-owehbeh.herokuapp.com)
